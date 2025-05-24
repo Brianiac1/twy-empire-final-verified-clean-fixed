@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
-import { ethers } from 'ethers';
+import { useState, useEffect } from "react";
+import { ethers } from "ethers";
 
 const WHITELIST = ["0x3a850885EE6A67611Ee6E5886CC2dC3830C73421"];
 
@@ -22,12 +22,26 @@ export default function Home() {
     setWallet(address);
   };
 
-  const buyWithETH = () => alert("✅ buyWithETH() logic would execute here");
-  const buyWithUSDC = () => alert("✅ buyWithUSDC() logic would execute here");
-  const claimTokens = () => alert("✅ claimTokens() logic would execute here");
+  const buyWithETH = () => {
+    alert("✅ buyWithETH() logic would execute here");
+  };
+
+  const buyWithUSDC = () => {
+    alert("✅ buyWithUSDC() logic would execute here");
+  };
+
+  const claimTokens = () => {
+    alert("✅ claimTokens() logic would execute here");
+  };
 
   return (
-    <div style={{ backgroundColor: 'black', color: 'gold', minHeight: '100vh', padding: '2rem', textAlign: 'center' }}>
+    <div style={{
+      backgroundColor: 'black',
+      color: 'gold',
+      minHeight: '100vh',
+      padding: '2rem',
+      textAlign: 'center'
+    }}>
       <img src="/token.png" alt="$TWY" style={{ width: 180, marginBottom: '1.5rem' }} />
       <h1 style={{ fontSize: '2rem' }}>$TWY Web3 Empire</h1>
       <p>Say hello to The World, Chico... and Everything in it.</p>
