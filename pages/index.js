@@ -22,17 +22,9 @@ export default function Home() {
     setWallet(address);
   };
 
-  const buyWithETH = () => {
-    alert("✅ buyWithETH() logic would execute here");
-  };
-
-  const buyWithUSDC = () => {
-    alert("✅ buyWithUSDC() logic would execute here");
-  };
-
-  const claimTokens = () => {
-    alert("✅ claimTokens() logic would execute here");
-  };
+  const buyWithETH = () => alert("✅ buyWithETH() logic would execute here");
+  const buyWithUSDC = () => alert("✅ buyWithUSDC() logic would execute here");
+  const claimTokens = () => alert("✅ claimTokens() logic would execute here");
 
   return (
     <div style={{
